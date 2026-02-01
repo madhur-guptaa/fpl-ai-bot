@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Project Data (TOO LARGE FOR GITHUB)
+*.db
+*.sqlite
+fpl_data.db
+
+# RAG Artifacts (Generated locally)
+*.bin
+*.pkl
+faiss_index.bin
+documents.pkl
+metadata.pkl
+
+# Logs
+*.log
+fpl_rag.log
+
+# IDE settings
+.idea/
+.vscode/
+.DS_Store
